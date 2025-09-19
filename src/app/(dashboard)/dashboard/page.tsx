@@ -1,4 +1,5 @@
 // src/app/page.tsx
+
 import StatsCard from "@/app/(dashboard)/dashboard/_components/StatsCard";
 import TasksTable from "@/app/(dashboard)/dashboard/_components/TasksTable";
 import Timelog from "@/app/(dashboard)/dashboard/_components/Timelog";
@@ -8,6 +9,8 @@ import InfoCard from "@/app/(dashboard)/dashboard/_components/InfoCard";
 export default function Dashboard() {
   return (
     <div className="h-screen  p-6 space-y-2">
+
+
       <section className="grid grid-cols-3 gap-6">
         <div className="col-span-1 bg-white p-4 rounded-lg shadow">
           <h3 className="font-semibold">Welcome Ritik Singh</h3>
